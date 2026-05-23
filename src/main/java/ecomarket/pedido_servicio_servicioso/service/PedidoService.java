@@ -6,6 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import ecomarket.pedido_servicio_servicioso.model.Pedido;
+import ecomarket.pedido_servicio_servicioso.repository.PedidoRepository;
 import jakarta.transaction.Transactional;
 
 @Service
